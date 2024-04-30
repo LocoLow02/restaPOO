@@ -5,13 +5,15 @@ public class MainResta {
         Scanner num= new Scanner (System.in);
         System.out.println("Resta de 2 numeros");
         System.out.println("Ingrese un numero:");
-        int a= num.nextInt();
-        n1.a=a;
+        n1.setA(num.nextInt());
         System.out.println("Ingrese segundo1 numero:");
-        int b= num.nextInt();
-        n1.b=b;
+        n1.setB(num.nextInt());
         System.out.println("El resultado es:");
         System.out.println(n1.restar());
+        System.out.println(n1);
+        
+        n1.getA();
+        n1.getB();
     
     }
 }
